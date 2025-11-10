@@ -1,5 +1,5 @@
 ###
-POST http://localhost:3000/api/productos
+POST https://productos-api-0sof.onrender.com/api/productos
 Content-Type: application/json
 
 {}
@@ -19,7 +19,7 @@ Content-Type: application/json
 }
 
 ###
-GET http://localhost:3000/api/productos
+GET https://productos-api-0sof.onrender.com/api/productos
 
 ###
 GET http://localhost:3000/api/productos/691003cbc0a967838652b5de

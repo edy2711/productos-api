@@ -1,12 +1,13 @@
 const express = require('express');
 const mongoose = require('mongoose');
+const cors = require('cors');
 require('dotenv').config(); 
 const productosRoutes = require('./routes/productos');
 
 const app = express();
 const port = process.env.PORT || 9000;
 
-
+app.use(cors());
 // middleware para JSON
 app.use(express.json());
 
