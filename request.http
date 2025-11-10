@@ -1,0 +1,42 @@
+###
+POST http://localhost:3000/api/productos
+Content-Type: application/json
+
+{}
+###
+###
+POST http://localhost:3000/api/productos
+Content-Type: application/json
+
+{
+    "nombre": "iupiiii",
+    "descripcion": "Este es un producto de prueba.",
+    "precio": 19.99,
+    "stock": 100,
+    "categoria": "iupi"
+   
+
+}
+
+###
+GET http://localhost:3000/api/productos
+
+###
+GET http://localhost:3000/api/productos/691003cbc0a967838652b5de
+
+###
+PUT http://localhost:3000/api/productos/691003cbc0a967838652b5de
+Content-Type: application/json
+
+{
+    "nombre": "Mouse",
+    "descripcion": "Este es un producto de prueba.",
+    "precio": 19.19,
+    "stock": 130,
+    "categoria": "Electronica"
+   
+
+}
+
+###
+DELETE  http://localhost:3000/api/productos/69102a15f3bb9599c065c333
